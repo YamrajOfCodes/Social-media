@@ -1,0 +1,50 @@
+.Login{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LoginBox{
+    padding: 40px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 4px;
+
+
+    label,input{
+        display: block;
+        width: 100%;
+        padding: 4px 4px;
+        font-weight: bold;
+        border-radius: 4px;
+   
+
+
+    }
+    input{
+        margin-block: 4px;
+        border: 1px solid black;
+    }
+    .submit{
+        margin-top: 14px;
+        background-color: rgb(60, 185, 252);
+        color: white;
+         border-radius: 4px;
+
+    }
+    .submit:hover{
+        background-color: rgb(44, 169, 236);
+        cursor: pointer;
+
+}
+    input{
+        padding: 8px 4px;
+    }
+
+    h2{
+        text-align: center;
+      
+    }
+
+    
+}
